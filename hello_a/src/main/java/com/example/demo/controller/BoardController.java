@@ -9,6 +9,8 @@ public class BoardController {
 	@GetMapping("/listBoard")
 	public String listBoard() {
 		System.out.println("2");
-		return "게시물목록";
+		System.out.println("1");
+		return "게시물 목록";
+		
 	}
 }
